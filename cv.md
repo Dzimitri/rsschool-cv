@@ -5,7 +5,7 @@
     4. Skills:
      Git: basic, HTML: basic, CSS: basic, C#: basic, JS basics.
     5. Latest projects:
-    public class Person
+    	public class Person
         {
             int id;
             public int Id
@@ -22,4 +22,7 @@
             string adress;
         }
    
-
+     6. Experience:
+     In addition to writing my small diploma project in C#, I have little experience. I will try to get it on this course.
+    7. Education: 
+        2 higher: Belarusian state University of Transport; Suchoi State Technical University of Gomel.

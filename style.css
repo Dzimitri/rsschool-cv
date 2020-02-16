@@ -1,0 +1,14 @@
+
+main {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 200px;
+}

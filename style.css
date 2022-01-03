@@ -12,3 +12,12 @@ img {
     width: 250px;
     height: 200px;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f1f5f8;
+    max-width: 1024px;
+    margin: 0 auto;
+}

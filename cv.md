@@ -26,4 +26,4 @@
      In addition to writing my small diploma project in C#, I have little experience. I will try to get it on this course.
     7. Education: 
         2 higher: Belarusian state University of Transport; Suchoi State Technical University of Gomel.
-    8. English level is A2(Pre-Intermediate).
+    8. English level is A1(Beginner).

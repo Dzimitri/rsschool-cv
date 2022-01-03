@@ -1,0 +1,26 @@
+
+main {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+
+}
+
+.avatar{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 200px;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f1f5f8;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 28px;
+}
+

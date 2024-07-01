@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--width=device-width - указ-т браузеру, что нужна ширина области просмотра такая же, как и ширина экрана; initial-scale=1.0 - устан-ет начальный масштаб страницы. В данном случае 1, т.е. 100%. -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--X-UA-Compatible указывает версию IE (в данном случае edge) -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico">
+    <title>cv</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#contacts" class="nav-link">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#summary" class="nav-link">Summary</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#code" class="nav-link">Code</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#english" class="nav-link">English</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-avatar" id="profile">
+                <img src="./avatar.jpg" alt="" class="section-avatar-logo">
+                <div class="section-avatar-title">
+                    <h1 class="section-title main-title">Dzmitry Prankevich</h1>
+                    <h3 class="section-subtitle">Junior Front-End Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">Gomel, Belarus</li>
+                    <li class="section-item contacts-item">Email: <a href="mailto:d.prankevich@gmail.com"
+                            title="email">d.prankevich@gmail.com</a></li>
+                    <li class="section-item contacts-item">Telegram: <a href="https://t.me/dzmtr_p"
+                            title="github">@dzmtr_p</a></li>
+                    <li class="section-item contacts-item">Discord: <a href="https://discord.gg/zUr7wWYPXE"
+                            title="github">Dzmitry</a></li>
+                    <li class="section-item contacts-item">Github: <a href="https://github.com/Dzimitri"
+                            title="github">Dzimitri</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I became interested in programming about 7 years ago, decided to understand it more deeply and
+                    entered the second higher education at the Gomel state technical University of Sukhoi.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">Git: basic.</li>
+                    <li class="section-item">HTML: basic.</li>
+                    <li class="section-item">CSS3: basic.</li>
+                    <li class="section-item">JS: basic.</li>
+                    <li class="section-item">C# : basic.</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre"><code>function onOperationButtonClick(eventObject) {
+                    var clickedElement = eventObject.currentTarget;
+                    var operation = clickedElement.innerHTML;
+                    makeOperation(operation);
+                }</code></pre>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <a href="https://dzimitri.github.io/Virtual-Keyboard/">Virtual-Keyboard</a>
+                    </li>
+                    <li class="section-item">
+                        <a href="https://Dzimitri.github.io/singolo/">Singolo</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <aside>
+                    <p>In addition to writing my small diploma project in C#, I have little experience. I will try to
+                        get it on this course.</p>
+                </aside>
+            </section>
+            <section class="section section-education" id="education">
+                <h2 class="section-title">Education</h2>
+                2 higher:
+                <ul class="section-list">
+                    <li class="'section-item">Suchoi State Technical University of Gomel;</li>
+                    <li class="section-item">Belarusian state University of Transport.</li>
+                </ul>
+            </section>
+            <section class="section section-english" id="english">
+                <h2 class="section-title">English</h2>
+                <p>English level is A1(Beginner).</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <a class="footer-icon" href="https://github.com/Dzimitri">
+                    <img src="./github-1.svg" alt="GitHub" height="50" width="50">
+                </a>
+            <p class="footer-year">2024</p>
+            <a class="footer-icon" href="https://rs.school/js/">
+                <img src="./logo-rsschool3.png" alt="RsSchool" width="90" height="40">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
